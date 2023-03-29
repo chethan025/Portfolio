@@ -1,0 +1,76 @@
+body{
+    background: linear-gradient(180deg, #F6F1F1 0%, #5F5F5F 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    
+}
+p{
+    display: inline;
+}
+p.haa{
+   position: absolute;
+top: -1%;
+right: 0;
+
+    margin: 0;
+    background-image: linear-gradient(180deg, rgba(75, 74, 74, 0.09) 0%, rgba(75, 74, 74, 0.0126) 100%);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-clip: text;
+
+
+    
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20.8vw;
+
+    width: 100%;
+
+    letter-spacing: -0.1em;
+
+
+    display: inline-block;
+    transform: scale(1,1.7);
+
+
+
+
+
+   
+
+}
+
+div.evlp{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+
+
+    width: 32vw;
+    height: 32vw;
+    background: linear-gradient(131.11deg, #939393 -71.24%, #E0F2FA 86.57%);
+    box-shadow: 20px 10px 8px rgba(61, 60, 60, 0.38);
+
+
+    border: 0;
+    border-radius: 50%;
+
+}
+img{
+    position: absolute;
+    top: 51.5%;
+    left: 50%;
+    transform: translate(-57%,-35%);
+
+    align-self: flex-end;
+
+    width: 25vw;
+    height:38vw;
+}
