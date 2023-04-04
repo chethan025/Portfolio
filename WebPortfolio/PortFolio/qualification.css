@@ -1,0 +1,141 @@
+body{
+    background: #2A0944;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    cursor: pointer;
+    counter-reset: section;
+}
+
+div.hed{
+    display: flex;
+    margin: 3vw;
+    justify-content: right;
+    text-align: right;
+    align-items: center;
+}
+img.nm{
+    position: absolute;
+    left: 4vw;
+    width: 23vw;
+    height: 3vw;
+}
+
+nav ul{
+    flex: 1;
+    text-align: right;
+    
+ }
+ nav ul li{
+    display: inline-block;
+    list-style: none;
+    
+    margin: 1.2vw;
+
+ }
+ nav ul li a{
+    color: #FEC260;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 2vw;
+
+    
+    
+    text-decoration: none;
+    position: relative;
+ }
+ nav ul li a::after
+ {
+    content: '';
+    width: 0;
+    height: 3px;
+    position: absolute;
+    bottom: -5px;
+    left: 50%;
+    transform: translate(-50%);
+    background: #A12568;
+    transition: width 0.3s;
+ }
+ nav ul li a:hover::after{
+    width: 80%;
+}
+
+
+
+/* START */
+
+
+div.vad{
+   position: absolute;
+}
+
+h1.gi{
+   position: relative;
+   width: 24vw;
+   height: 7vh;
+   left: 50vw;
+   top: 1vh;
+   
+   font-family: 'Macondo';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 3vw;
+   
+   text-align: center;
+   transform: translate(-50%, -50%);
+
+   background: radial-gradient(50% 50% at 50% 50%, #C43F87 0%, #AA1E6A 100%);
+   -webkit-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   background-clip: text;
+   
+}
+
+table.qv{
+   position: absolute;
+   width: 83.5vw;
+   height: 46vh;
+   left: 8vw;
+
+   margin: 2px;
+   border-collapse: collapse;
+   background: #D9D9D9;
+}
+
+ thead.had{
+   height: 7.6vh;
+
+   background: #3B185F;
+   color: #FEC260;
+
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 2.2vw;
+   
+   align-self: center;
+}
+
+ tbody.bgk{
+   position: relative;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 500;
+   font-size: 1.8vw;
+
+   text-align: center;
+   color: #1A1A1A;
+}
+a.clc{
+   position: relative;
+   color: #4c1179;
+   text-decoration: none;
+   transition: 100ms;
+}
+
+a.clc:hover{
+   color: #c91377;
+}
+
