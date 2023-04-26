@@ -71,7 +71,7 @@ div.cnt{
 div.tr{
     position: relative;
     width: 90vw;
-    height: 90vh;
+    height: 100vh;
 }
 
 h1{
@@ -102,7 +102,7 @@ h1.ga{
     top: 4vh;
     margin-right: 10vw;
     margin-bottom: 3vh;
-    
+    margin-top: 10vh;
     text-align: right;
 }
 
@@ -122,9 +122,9 @@ p.pa{
 
     font-family: 'Livvic';
     font-style: normal;
-    font-weight: bold;
-    font-size: 2.4vw;
-    line-height: 6vh;
+    
+    font-size: 2.3vw;
+    line-height: 7vh;
 
     color: #FFFFFF;
 }
@@ -136,9 +136,9 @@ p.pa2{
     
     font-family: 'Livvic';
     font-style: normal;
-    font-weight: bold;
-    font-size: 2.4vw;
-    line-height: 6vh;
+    
+    font-size: 2.3vw;
+    line-height: 7vh;
     text-align: right;
     color: #FFFFFF;
 
@@ -150,21 +150,21 @@ p.pa2{
 img.fad{
     position: absolute;
     top: 2vw;
-    right: 5vw;
-    width: 25vw; height: 25vw;
+    right: 2vw;
+    width: 32vw; height: 32vw;
 }
 img.fad2{
     position: absolute;
     top: 2vw;
-    left: 2vw;
-    width: 25vw; height: 25vw;
+    left: -2vw;
+    width: 32vw; height: 32vw;
 }
 button.bhn{
     position: absolute;
     width: 13vw;
     height: 4vw;
-    left: 40vw;
-    top: 55vh;
+    left: 52vw;
+    bottom: 15vh;
 
     background: #FEC260;
 
