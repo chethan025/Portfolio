@@ -64,8 +64,9 @@ width: 80%;
 
 /* Starts */
 
-div.fc{
-    height: 90vh;
+div.fc{        /*  uupp */
+    position: relative;        /*  uupp */
+    height: 84vh;        /*  uupp */
 }
 
 
@@ -138,19 +139,22 @@ td.nag{
 
 div.scl{
     position: absolute;
-    right: 1vw ;
+    left: 1vw ;        /*  uupp */
     bottom: 0.6vh;
 }
 
 img.sk{
-    width: 3vw;
-    height: 3vw;
+    width: 2.5vw;        /*  uupp */
+    height: 2.5vw;        /*  uupp */
 }
 
-div.re{
-    position: absolute;
-    right: 10vw ;
-    bottom: -13vh;
+div.re{        /*  uupp */
+    position: absolute;        /*  uupp */
+    margin: 0 2vw 0 0;        /*  uupp */
+        /*  uupp */
+    right: 1vw ; 
+    bottom: 1.2vh;
+    
 }
 
 a.ret{
@@ -158,10 +162,10 @@ a.ret{
     font-family: 'Montserrat';
     font-style: italic;
     font-weight: 500;
-    font-size: 2vw;
+    font-size: 1.5vw;
     
     text-align: right;
-    color: #FEC260;
+    color: #1A1A1A;
     text-decoration: none;
 }
 a.ret::after{
@@ -170,8 +174,8 @@ a.ret::after{
     height: 3px;
     display: block;
     transition: 300ms;
-    background: #AA1E6A;
-    position: absolute;
+    background: #D08C1D;
+    position: relative;        /*  uupp */
     left: 50%;
     transform: translate(-50%) ;
 }
@@ -181,7 +185,7 @@ a.ret:hover::after{
 
 img.btn{
 position: absolute;
-margin-left: 1vw;
+margin-left: 0.5vw;
 top: 0.2vh;
 width: 2vw;
 height: 4vh;
