@@ -190,3 +190,61 @@ top: 0.2vh;
 width: 2vw;
 height: 4vh;
 }
+
+
+/* Mobiles screens */
+
+
+@media screen and (max-width:600px) {
+
+    div.cn{
+        height: 80vh;
+    }
+
+    h1.cg{
+        width: 32vw;
+        font-size: 4vw;
+        text-align: center;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    img.pst{
+        position: relative;
+        width: 24vw;
+        height: 20vh;
+        top: 10vh;
+        left: 50%;
+        transform: translate(-50%)
+    }
+
+    table{
+        
+        width: 60vw;
+        height: 10vh;
+    }
+
+    td.gan{
+        font-size: 3.8vw;
+        width: 26vw;
+        height: 4vh;
+    }
+
+    td.nag{
+        
+        font-size: 3vw;
+        width: 40vw;
+
+    }
+
+    a.ret{
+        font-size: 3vw;
+    }
+
+
+
+    img.sk{
+        width: 4vw;
+        height: 4vh;
+    }
+}
