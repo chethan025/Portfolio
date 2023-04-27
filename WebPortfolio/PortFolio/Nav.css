@@ -74,6 +74,10 @@ div.tr{
     height: 100vh;
 }
 
+#Personal{
+    height: 90vh;
+}
+
 h1{
     font-family: 'Macondo';
     font-style: normal;
@@ -184,6 +188,10 @@ button.bhn{
 
 }
 
+#bggy{
+    bottom: 8vh;
+}
+
 button.bhn:hover{
     background-color:#8205ff00;
     color: #AA1E6A;
@@ -219,3 +227,108 @@ p.end{
    
     
 }
+
+
+/* Mobiles screens */
+
+
+@media screen and (max-width:600px) {
+
+    /* div.cnt{
+        position: relative;
+    } */
+
+    div.tr{
+        width: 80vw;
+        height: 106vh;
+        
+        
+    }
+
+    #Personal{
+        height: 106vh;
+        
+    }
+
+    h1{
+        font-size: 7vw;
+        
+    }
+
+    h1.ga{
+        margin-right: 6vw;
+    }
+
+    svg{
+        width: 80vw;
+    }
+
+    svg.jg{
+        right: -1vw;
+    }
+    
+
+
+
+
+    img.fad {
+        position: relative;
+        left: 50%;
+        transform: translate( -50%);
+
+        width: 65vw; height: 65vw;
+    }
+    img.fad2{
+        position: relative;
+        left: 50%;
+        transform: translate( -50%);
+
+        width: 65vw; height: 65vw;
+    }
+
+    p.pa{
+       
+        margin: 0vw;
+        /* padding: 0vw 12vw 3vw 0vw; */
+        width: 85vw;
+        font-size: 3vh;
+        line-height: 5vh;
+    }
+
+    p.pa2{
+        position: relative;
+        right: 0%;
+        margin: 0vw;
+        /* padding: 0vw 12vw 3vw 0vw; */
+        width: 82vw;
+        font-size: 3vh;
+        line-height: 5vh;
+    }
+
+    button.bhn{
+        position: absolute;
+        width: 24vw;
+        height: 8vw;
+        bottom: 1vw;
+        left: 58vw;
+        
+
+
+        font-size: 3.8vw;
+        
+    }
+
+    #bggy{
+        bottom: 1vw;
+    }
+
+    div.con{
+        height: max-content;
+    }
+
+    p.end{
+        font-size: 3vw;
+    }
+    
+}
+
